@@ -39,7 +39,7 @@ const Calculator = () => {
         if (num2 === 0 && num1 !==0) {
           return "Infinity";
         }else if(num1 === 0 && num2 === 0)
-            return 0
+            return "NaN"
         return num1 / num2;
       default:
         return "Error"
